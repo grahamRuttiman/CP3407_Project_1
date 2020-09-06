@@ -78,11 +78,11 @@ public class Insulin_pump {
 
         // Manual Button
         manual_button.setBounds(250,300,95,30);
-        set__button_colour(off_button, automatic_button, manual_button, Display2,"Manual Mode");
+        set__button_colour(off_button, automatic_button, manual_button, Display2,"Manual Mode. Blood sugar levels: " + user.blood_sugar);
 
         // Automatic Button
         automatic_button.setBounds(250,350,95,30);
-        set__button_colour(manual_button, off_button, automatic_button, Display2, "Automatic Mode");
+        set__button_colour(manual_button, off_button, automatic_button, Display2, "Automatic Mode. Blood sugar levels: " + user.blood_sugar);
 
         // Frame
         jFrame.add(Display1);
